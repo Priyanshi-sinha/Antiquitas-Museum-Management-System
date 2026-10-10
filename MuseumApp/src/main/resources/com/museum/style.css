@@ -1,0 +1,71 @@
+/* Antiquitas Museum – JavaFX Dark Theme */
+.root {
+    -fx-background-color: #7d3a80;
+    -fx-font-family: "Segoe UI", "SF Pro Text", Arial, sans-serif;
+    -fx-font-size: 12px;
+}
+
+/* ── Scroll bars ── */
+.scroll-bar { -fx-background-color: #1e2235; }
+.scroll-bar .thumb { -fx-background-color: #363b52; -fx-background-radius: 4px; }
+.scroll-bar .thumb:hover { -fx-background-color: #4a4f6a; }
+.scroll-bar .track { -fx-background-color: #1a1d2e; }
+.scroll-bar .increment-button, .scroll-bar .decrement-button { -fx-background-color: transparent; -fx-padding: 0; }
+.scroll-bar .increment-arrow, .scroll-bar .decrement-arrow { -fx-background-color: #363b52; -fx-shape: " "; -fx-padding: 0 2; }
+.scroll-pane { -fx-background-color: transparent; -fx-background: #1c1f2e; }
+.scroll-pane > .viewport { -fx-background-color: transparent; }
+.scroll-pane > .corner { -fx-background-color: #1e2235; }
+
+/* ── Text fields ── */
+.text-field, .password-field {
+    -fx-background-color: #2a2e45;
+    -fx-text-fill: #e8e8f0;
+    -fx-prompt-text-fill: #5e6480;
+    -fx-border-color: #363b52;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-highlight-fill: #c9a84c44;
+    -fx-highlight-text-fill: #e8e8f0;
+}
+.text-field:focused, .password-field:focused { -fx-border-color: #c9a84c66; }
+
+/* ── TextArea ── */
+.text-area {
+    -fx-background-color: #2a2e45;
+    -fx-control-inner-background: #2a2e45;
+    -fx-text-fill: #e8e8f0;
+    -fx-prompt-text-fill: #5e6480;
+    -fx-border-color: #363b52;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+}
+.text-area:focused { -fx-border-color: #c9a84c66; }
+.text-area .content { -fx-background-color: #2a2e45; }
+
+/* ── ComboBox ── */
+.combo-box { -fx-background-color: #2a2e45; -fx-border-color: #363b52; -fx-border-radius: 4px; -fx-background-radius: 4px; }
+.combo-box .list-cell { -fx-background-color: #2a2e45; -fx-text-fill: #e8e8f0; -fx-font-size: 12px; }
+.combo-box .arrow { -fx-background-color: #5e6480; }
+.combo-box-popup .list-view { -fx-background-color: #2a2e45; -fx-border-color: #363b52; }
+.combo-box-popup .list-view .list-cell { -fx-background-color: #2a2e45; -fx-text-fill: #e8e8f0; -fx-padding: 4 8; }
+.combo-box-popup .list-view .list-cell:hover { -fx-background-color: #363b52; }
+.combo-box-popup .list-view .list-cell:selected { -fx-background-color: #c9a84c33; -fx-text-fill: #c9a84c; }
+
+/* ── CheckBox ── */
+.check-box .box { -fx-background-color: #2a2e45; -fx-border-color: #363b52; -fx-border-radius: 3px; -fx-background-radius: 3px; }
+.check-box:selected .box { -fx-background-color: #c9a84c; -fx-border-color: #c9a84c; }
+.check-box:selected .mark { -fx-background-color: #1a1d2e; }
+
+/* ── Alert dialogs ── */
+.dialog-pane { -fx-background-color: #1e2235; -fx-border-color: #2a2e45; }
+.dialog-pane .header-panel { -fx-background-color: #1a1d2e; }
+.dialog-pane .header-panel .label { -fx-text-fill: #e8e8f0; -fx-font-size: 14px; -fx-font-weight: bold; }
+.dialog-pane .content.label { -fx-text-fill: #a8b0cc; }
+.dialog-pane .button-bar .button { -fx-background-color: #2a2e45; -fx-text-fill: #e8e8f0; -fx-border-color: #363b52; -fx-border-radius: 4px; -fx-background-radius: 4px; }
+.dialog-pane .button-bar .button:default { -fx-background-color: #c9a84c; -fx-text-fill: #1a1d2e; -fx-font-weight: bold; }
+
+/* ── Separator ── */
+.separator .line { -fx-background-color: #2a2e45; -fx-border-color: #2a2e45; }
+
+/* ── Tooltip ── */
+.tooltip { -fx-background-color: #2a2e45; -fx-text-fill: #e8e8f0; -fx-border-color: #363b52; -fx-border-radius: 4px; -fx-background-radius: 4px; -fx-font-size: 11px; }
